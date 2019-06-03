@@ -3,24 +3,15 @@
 
 require 'autoload.php';
 
+//Connexion à MySQL
+$pdo = new PDO ('mysql:host=localhost;dbname=mydb', 'root');
+//requete SQL
+$query = "SELECT * FROM produit WHERE etat_publication = 1";
+//Execution de la requete
+$result = $pdo->query($query);
+//Recuperation des résultats
+$products = $result->fetchAll(PDO :: FETCH_CLASS, 'Produit');
 
-// On crée un nouveau produit
-$hamac = new produit ();
-$hamac->setName("Hamac");
-$hamac->setDescription("Pour se reposer après 5 jours de PHP");
-$hamac->SetImageName ("hamac.jpg") ;
-var_dump($hamac);
-
-// On crée un deuxième objet
-$parasol = new Produit();
-$parasol->setName ("Parasol");
-$parasol->setDescription ("Pour faire de l'ombre au hamac");
-$parasol->SetImageName ("parasol.jpg");
-var_dump($parasol);
-
-// On crée un tableau pour stocker les objets
-$products = [$hamac, $parasol];
-var_dump($products);
 ?>
 
 
