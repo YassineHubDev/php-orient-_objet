@@ -1,13 +1,174 @@
 <?php
 
 class Produit {
-    public $id;
-    public $name;
-    public $description;
-    public $price;
-    public $nbVues;
-    public $dateCreation;
-    public $dateModification;
-    public $datePublication;
-    public $imageName;
+    private $id;
+    private $name;
+    private $description;
+    private $price;
+    private $nbVues;
+    private $dateCreation;
+    private $dateModification;
+    private $datePublication;
+    private $imageName;
+
+    /**
+     * Retourne les 50 premiers caractères de la description
+     * @return string
+     */
+
+    public function getShortDescription(): string
+    {
+        return substr($this->description, 0, 50) ; "...";
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * @param mixed $id
+     */
+    public function setId($id)
+    {
+        $this->id = $id;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    /**
+     * @param mixed $name
+     */
+    public function setName($name)
+    {
+        $this->name = $name;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getDescription()
+    {
+        return $this->description;
+    }
+
+    /**
+     * @param mixed $description
+     */
+    public function setDescription($description)
+    {
+        $this->description = $description;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getPrice()
+    {
+        return $this->price;
+    }
+
+    /**
+     * @param mixed $price
+     */
+    public function setPrice($price)
+    {
+        $this->price = $price;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getNbVues()
+    {
+        return $this->nbVues;
+    }
+
+    /**
+     * @param mixed $nbVues
+     */
+    public function setNbVues($nbVues)
+    {
+        $this->nbVues = $nbVues;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getDateCreation()
+    {
+        return $this->dateCreation;
+    }
+
+    /**
+     * @param mixed $dateCreation
+     */
+    public function setDateCreation($dateCreation)
+    {
+        $this->dateCreation = $dateCreation;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getDateModification()
+    {
+        return $this->dateModification;
+    }
+
+    /**
+     * @param mixed $dateModification
+     */
+    public function setDateModification($dateModification)
+    {
+        $this->dateModification = $dateModification;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getDatePublication()
+    {
+        return $this->datePublication;
+    }
+
+    /**
+     * @param mixed $datePublication
+     */
+    public function setDatePublication($datePublication)
+    {
+        $this->datePublication = $datePublication;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getImageName()
+    {
+        return $this->imageName;
+    }
+
+    /**
+     * @param mixed $imageName
+     */
+    public function setImageName($imageName)
+    {
+        $this->imageName = $imageName;
+    }
+
+    /**
+     * Retourne les 50 premiers caractères de la description
+     * @return string
+     */
+
+
 }

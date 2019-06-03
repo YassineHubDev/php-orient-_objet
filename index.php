@@ -1,21 +1,21 @@
 <?php
-// On inclue la classe pour l'utiliser
-require 'classes/Produit.php';
 
-echo 'Projet PHP objet';
+
+require 'autoload.php';
+
 
 // On crée un nouveau produit
 $hamac = new produit ();
-$hamac->name = "Hamac";
-$hamac->description = "Pour se reposer après 5 jours de PHP";
-$hamac->imageName = "hamac.jpg";
+$hamac->setName("Hamac");
+$hamac->setDescription("Pour se reposer après 5 jours de PHP");
+$hamac->SetImageName ("hamac.jpg") ;
 var_dump($hamac);
 
 // On crée un deuxième objet
 $parasol = new Produit();
-$parasol->name = "Parasol";
-$parasol->description = "Pour faire de l'ombre au hamac";
-$parasol->imageName = "parasol.jpg";
+$parasol->setName ("Parasol");
+$parasol->setDescription ("Pour faire de l'ombre au hamac");
+$parasol->SetImageName ("parasol.jpg");
 var_dump($parasol);
 
 // On crée un tableau pour stocker les objets
@@ -32,10 +32,10 @@ var_dump($products);
         <?php foreach ($products as $product) : ?>
             <div class="col-4">
                 <div class="card">
-                    <img src="img/upload/<?= $product->imageName; ?>" class="card-img-top" alt="Image de <?= $product->name; ?>">
+                    <img src="img/upload/<?= $product->getImageName(); ?>" class="card-img-top" alt="Image de <?= $product->getName(); ?>">
                     <div class="card-body">
-                        <h5 class="card-title"><?= $product->name; ?></h5>
-                        <p class="card-text"><?= $product->description; ?></p>
+                        <h5 class="card-title"><?= $product->getName(); ?></h5>
+                        <p class="card-text"><?= $product->getShortDescription(); ?></p>
                         <a href="#" class="card-link btn btn-outline-info">Détail</a>
                     </div>
                 </div>
