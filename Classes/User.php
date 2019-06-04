@@ -11,7 +11,7 @@ class User
     /**
      * @var string
      */
-    private $ûsername;
+    private $username;
 
     /**
      * @var string
@@ -42,18 +42,19 @@ class User
     /**
      * @return string
      */
-    public function getÛsername()
+    public function getUsername(): string
     {
-        return $this->ûsername;
+        return $this->username;
     }
 
     /**
-     * @param string $ûsername
+     * @param string $username
      */
-    public function setÛsername($ûsername)
+    public function setUsername(string $username): void
     {
-        $this->ûsername = $ûsername;
+        $this->username = $username;
     }
+
 
     /**
      * @return string
@@ -79,16 +80,45 @@ class User
         return $this->password;
     }
 
+
     /**
+     * Ajoute et hash le mot de passe
      * @param string $password
      */
-    public function setPassword($password)
+
+    public function setPassword(string $password): void
     {
-        $this->password = $password;
+        //Hashage
+        $hash=password_hash($password, PASSWORD_BCRYPT);
+        //stockage
+        $this->password = $hash;
+    }
+
+    public function getStrParamSQL()
+    {
+        //On crée un tableau avec les 3 propriètés
+        $tab = [$this->username, $this->email, $this->password];
+        //On crée une chaîne de caractère séparés de virgule et les quotes simples
+        $str = implode("','", $tab);
+        // On a rajouté une quote simple auu début et une à la fin
+        //On retourne l'ensemble
+        return"'" . $str . "'";
     }
 
 
-
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -37,5 +37,15 @@ class Database
         return $result->fetchAll(PDO:: FETCH_CLASS, 'produit');
 }
 
-
+    /**
+     *
+     *
+     *
+     * @param string $sql
+     * @return int
+     */
+    public function exec (string $sql): int
+{
+     return $this->pdo->exec($sql);
+    }
 }

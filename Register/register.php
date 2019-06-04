@@ -10,7 +10,14 @@ require 'register_check.php';
 
     <main class="container">
 
-        <h1>Ajout d'un produit</h1>
+        <?php if(isset($success) && $success === 1) : ?>
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                Utilisateur inscrit
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        <?php endif; ?>
 
         <form method="post">
 
@@ -29,7 +36,7 @@ require 'register_check.php';
                 <label for="email">Email</label>
                 <input type="email"
                        class="form-control <?= (isset($errorMessageEmail) && !empty($errorMessageEmail)) ? 'is-invalid' : '' ?>"
-                       id="name" email="email" value="<?= $_POST['name']  ?? '' ?>">
+                       id="name" name="email" value="<?= $_POST['email']  ?? '' ?>">
                 <div class="invalid-feedback"><?= $errorMessageEmail ?? "" ?></div>
             </div>
 
