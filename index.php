@@ -3,14 +3,12 @@
 
 require 'autoload.php';
 
-//Connexion à MySQL
-$pdo = new PDO ('mysql:host=localhost;dbname=mydb', 'root');
-//requete SQL
+$database = new Database();
+$database->connect();
+
+//Requete SQL
 $query = "SELECT * FROM produit WHERE etat_publication = 1";
-//Execution de la requete
-$result = $pdo->query($query);
-//Recuperation des résultats
-$products = $result->fetchAll(PDO :: FETCH_CLASS, 'Produit');
+$products = $database->query($query, 'produit');
 
 ?>
 

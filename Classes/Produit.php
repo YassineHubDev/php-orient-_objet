@@ -154,7 +154,7 @@ class Produit {
      */
     public function getImageName()
     {
-        return $this->imageName;
+        return $this->imageName ?? $this->image_name ?? '';
     }
 
     /**
