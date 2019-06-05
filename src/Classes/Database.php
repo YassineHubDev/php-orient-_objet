@@ -11,6 +11,14 @@ class Database
      */
     private $pdo;
 
+    public function __construct()
+    {
+        var_dump("Entrée dans le constructeur");
+        $this->connect();
+    }
+
+
+
     public function connect():void
      {
 
@@ -34,7 +42,7 @@ class Database
         //Execution de la requete
         $result = $this->pdo->query($sql);
         // Récupération des résultats
-        return $result->fetchAll(PDO:: FETCH_CLASS, 'produit');
+        return $result->fetchAll(PDO::FETCH_CLASS, 'produit');
 }
 
     /**

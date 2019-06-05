@@ -11,7 +11,7 @@ class User
     /**
      * @var string
      */
-    private $username;
+    private $name;
 
     /**
      * @var string
@@ -22,6 +22,20 @@ class User
      * @var string
      */
     private $password;
+
+    /*
+     * Initialisation des propriètés de l'utilisateur à la construcion de l'objet
+     * @param string $username
+     * @param $email
+     * @param $password
+     */
+
+    public function __construct(string $name, string $email, string $password)
+    {
+        $this->name = $name;
+        $this->email = $email;
+        $this->setPassword($password);
+    }
 
     /**
      * @return int
@@ -44,7 +58,7 @@ class User
      */
     public function getUsername(): string
     {
-        return $this->username;
+        return $this->name;
     }
 
     /**
@@ -97,7 +111,8 @@ class User
     public function getStrParamSQL()
     {
         //On crée un tableau avec les 3 propriètés
-        $tab = [$this->username, $this->email, $this->password];
+        $tab = [
+            $this->name, $this->email, $this->password];
         //On crée une chaîne de caractère séparés de virgule et les quotes simples
         $str = implode("','", $tab);
         // On a rajouté une quote simple auu début et une à la fin

@@ -1,19 +1,7 @@
 <?php
-
-
-require 'autoload.php';
-
-$database = new Database();
-$database->connect();
-
-//Requete SQL
-$query = "SELECT * FROM produit WHERE etat_publication = 1";
-$products = $database->query($query, 'produit');
-
+require dirname(__DIR__) . '/src/Controller/indexController.php';
+require 'inc/header.php';
 ?>
-
-
-<?php require 'inc/header.php'; ?>
 
 <main class="container">
     <h1 class="mt-2">Présentation des produits</h1>
@@ -21,7 +9,7 @@ $products = $database->query($query, 'produit');
         <?php foreach ($products as $product) : ?>
             <div class="col-4">
                 <div class="card">
-                    <img src="img/upload/<?= $product->getImageName(); ?>" class="card-img-top" alt="Image de <?= $product->getName(); ?>">
+                    <img src="/public/img/upload/<?= $product->getImageName(); ?>" class="card-img-top" alt="Image de <?= $product->getName(); ?>">
                     <div class="card-body">
                         <h5 class="card-title"><?= $product->getName(); ?></h5>
                         <p class="card-text"><?= $product->getShortDescription(); ?></p>

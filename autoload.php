@@ -3,7 +3,7 @@
 //Définition de la fonction d'autoloading
 
 function myAutoloader (string $className): void {
-    require 'Classes/' . $className . '.php';
+    require 'src/Classes/' . $className . '.php';
 }
 //Enregistrement de la fonction autoloading
 spl_autoload_register('myAutoloader');

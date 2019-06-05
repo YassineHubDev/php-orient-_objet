@@ -1,7 +1,7 @@
 <?php
+require dirname(__DIR__, 2) . '/autoload.php';
+require dirname(__DIR__) . '/functions/FormValidator.php';
 
-require '../autoload.php';
-require 'form_function.php';
 
 // Vérification formulaire + inscription de l'utilisateur en BDD
 
@@ -20,14 +20,9 @@ if ($_SERVER ['REQUEST_METHOD'] === 'POST') {
         $database->connect();
 
         //On crée un utilisateur en local
-        $user= new User();
-        $user->setUsername($_POST['name']);
-        $user->setEmail($_POST['email']);
-        $user->setPassword($_POST['password']);
+        $user= new User($_POST['name'], $_POST['email'],$_POST['password']);
+        $retour = $user->getStrParamSQL();
 
-        var_dump($user);
-
-        die('debug user');
 
         $query = "INSERT INTO app_user (username, email, password) VALUES (".$user->getStrParamSql() . ")";
         $success = $database->exec($query);
@@ -35,3 +30,17 @@ if ($_SERVER ['REQUEST_METHOD'] === 'POST') {
         var_dump("Problème");
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
