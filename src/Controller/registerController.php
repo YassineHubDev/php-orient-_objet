@@ -7,9 +7,9 @@ require dirname(__DIR__) . '/functions/FormValidator.php';
 
 if ($_SERVER ['REQUEST_METHOD'] === 'POST') {
 
-    $errorMessageUserName = checkPostText('name', 255);
-    $errorMessageEmail = checkPostText('email', 200);
-    $errorMessagePassword = checkPostText('password', 128);
+    $errorMessageUserName = FormValidator::checkPostText('name', 255);
+    $errorMessageEmail = FormValidator::checkPostText('email', 200);
+    $errorMessagePassword = FormValidator::checkPostText('password', 128);
 
     if (empty($errorMessageUserName) &&
     empty($errorMessageEmail) &&
