@@ -1,7 +1,7 @@
 <?php
 
 
-class boat extends vehicle
+class boat extends Abstractvehicle
 {
 
     /*
@@ -18,7 +18,7 @@ class boat extends vehicle
     public function move(int $km): void
     {
         //On rappelle la méthode parente
-        parent::move($km);
+        //parent::move($km);
         //On rajoute un comportement
         echo 'Ffffffffff';
 
