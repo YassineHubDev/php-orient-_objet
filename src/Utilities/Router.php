@@ -16,9 +16,9 @@ class Router
      * @param string $url - url à detecter
      * @param string $file - Template à appeler
      */
-    public function addRoute (string $url, string $file): void
+    public function addRoute(string $url, string $file): void
     {
-        $this ->routes[] = [
+        $this->routes[] = [
             'url' => $url,
             'template' => $file
         ];
@@ -29,14 +29,15 @@ class Router
      * Vérifie l'url et renvoie l'éventuel fichier à appeler
      * @return string|null - retourne l'éventuel template à appeler
      */
-    public function match (): ?string
+    public function match(): ?string
     {
         $url = $_SERVER ['REQUEST_URI'];
         //TODO : à enlever ASAP
-        $url = substr($url, 10);
-        var_dump($url);
+        if (strlen($url) >= 10) {
+            $url = substr($url, 10);
+        }
 
-        foreach ($this->routes as $route){
+        foreach ($this->routes as $route) {
             //Si la  route correspond à l'URL
             if ($route ['url'] === $url) {
                 //On retourne le template à exectuer

@@ -3,7 +3,6 @@
 
 use src\Controller\IndexController;
 
-require dirname(__DIR__) . '/autoload.php';
 
 //On récupère notre contrôleur
 $controller = new IndexController();
@@ -22,7 +21,7 @@ require 'inc/header.php';
         <?php foreach ($products as $product) : ?>
             <div class="col-4">
                 <div class="card">
-                    <img src="/public/img/upload/<?= $product->getImageName(); ?>" class="card-img-top" alt="Image de <?= $product->getName(); ?>">
+                    <img src="/img/upload/<?= $product->getImageName(); ?>" class="card-img-top" alt="Image de <?= $product->getName(); ?>">
                     <div class="card-body">
                         <h5 class="card-title"><?= $product->getName(); ?></h5>
                         <p class="card-text"><?= $product->getShortDescription(); ?></p>
