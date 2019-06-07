@@ -1,6 +1,6 @@
 <?php
 
-
+namespace src\Vehicle;
 trait Energizer {
     private $energy = 100;
     /**

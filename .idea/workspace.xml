@@ -2,8 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b240b1bc-d17d-4159-87d6-0111447f77d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Classes/FormValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/FormValidator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/RegisterController2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/indexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/indexController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/registerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/registerController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Produit.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Produit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Examples/Compteur.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Examples/Compteur.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utilities/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilities/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utilities/FormValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilities/FormValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vehicle/AbstractFlyingVehicle.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle/AbstractFlyingVehicle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vehicle/AbstractRollingVehicle.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle/AbstractRollingVehicle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vehicle/AbstractVehicle.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle/AbstractVehicle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vehicle/Aeroport.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle/Aeroport.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vehicle/Car.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle/Car.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vehicle/Energizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle/Energizer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vehicle/Moto.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle/Moto.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vehicle/Plane.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle/Plane.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vehicle/VehicleInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle/VehicleInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/race.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/race.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/register.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,22 +38,96 @@
       <executable />
     </execution>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mydb@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mydb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mydb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mydb: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Classes/FormValidator.php">
+        <entry file="file://$PROJECT_DIR$/src/Controller/RegisterController2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="69" lean-forward="true" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+            <state relative-caret-position="625">
+              <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+              <folding>
+                <element signature="e#35#55#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/registerController.php">
+        <entry file="file://$PROJECT_DIR$/src/Controller/indexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+            <state relative-caret-position="384">
+              <caret line="16" column="11" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="11" />
+              <folding>
+                <element signature="e#34#57#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/register.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="38" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://9adce522-d6ca-4a56-bada-9f1ac73508f1/schema/mydb/table/app_user">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="a00ed18a-1055-404e-a92e-0039610f87c0">
+              <filtering>
+                <filter text="" />
+              </filtering>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Utilities/Database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="29" column="45" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -44,17 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/inc/header.php" />
-        <option value="$PROJECT_DIR$/inc/footer.php" />
-        <option value="$PROJECT_DIR$/register.php" />
-        <option value="$PROJECT_DIR$/register_check.php" />
-        <option value="$PROJECT_DIR$/Classes/Register/form_function.php" />
-        <option value="$PROJECT_DIR$/Classes/Register/register.php" />
-        <option value="$PROJECT_DIR$/Classes/Register/register_check.php" />
-        <option value="$PROJECT_DIR$/Register/form_function.php" />
-        <option value="$PROJECT_DIR$/Classes/Datebase.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/Classes/Produit.php" />
         <option value="$PROJECT_DIR$/gitignore.php" />
         <option value="$PROJECT_DIR$/Classes/Database.php" />
         <option value="$PROJECT_DIR$/Classes/User.php" />
@@ -62,28 +147,56 @@
         <option value="$PROJECT_DIR$/Register/register_check.php" />
         <option value="$PROJECT_DIR$/src/index.php" />
         <option value="$PROJECT_DIR$/templates/inc/footer.php" />
-        <option value="$PROJECT_DIR$/autoload.php" />
-        <option value="$PROJECT_DIR$/templates/register.php" />
         <option value="$PROJECT_DIR$/templates/inc/header.php" />
-        <option value="$PROJECT_DIR$/templates/index.php" />
-        <option value="$PROJECT_DIR$/src/Controller/indexController.php" />
         <option value="$PROJECT_DIR$/src/Classes/Database.php" />
         <option value="$PROJECT_DIR$/src/Classes/User.php" />
-        <option value="$PROJECT_DIR$/src/Classes/Moto.php" />
         <option value="$PROJECT_DIR$/templates/moto.php" />
         <option value="$PROJECT_DIR$/src/Classes/vehicule.php" />
-        <option value="$PROJECT_DIR$/src/Classes/Plane.php" />
+        <option value="$PROJECT_DIR$/src/Classes/FormValidator.php" />
         <option value="$PROJECT_DIR$/src/Classes/vehicle.php" />
         <option value="$PROJECT_DIR$/src/Classes/boat.php" />
+        <option value="$PROJECT_DIR$/src/Classes/Plane2.php" />
+        <option value="$PROJECT_DIR$/src/Classes/FlyingVehicle.php" />
+        <option value="$PROJECT_DIR$/src/Classes/RollingVehicle.php" />
+        <option value="$PROJECT_DIR$/src/Classes/AbstractRollingVehicle.php" />
+        <option value="$PROJECT_DIR$/src/Classes/AbstractVehicle.php" />
+        <option value="$PROJECT_DIR$/src/Classes/Aeroport.php" />
+        <option value="$PROJECT_DIR$/src/Classes/Car.php" />
+        <option value="$PROJECT_DIR$/src/Classes/Plane.php" />
+        <option value="$PROJECT_DIR$/src/Classes/Supercopter.php" />
+        <option value="$PROJECT_DIR$/src/Classes/VehicleInterface.php" />
+        <option value="$PROJECT_DIR$/src/Classes/Energizer.php" />
+        <option value="$PROJECT_DIR$/src/Classes/AbstractFlyingVehicle.php" />
+        <option value="$PROJECT_DIR$/src/Classes/Moto.php" />
         <option value="$PROJECT_DIR$/templates/race.php" />
+        <option value="$PROJECT_DIR$/src/Entity/Produit.php" />
+        <option value="$PROJECT_DIR$/src/Entity/User.php" />
+        <option value="$PROJECT_DIR$/src/Examples/Compteur.php" />
+        <option value="$PROJECT_DIR$/src/Utilities/FormValidator.php" />
+        <option value="$PROJECT_DIR$/src/Vehicle/AbstractFlyingVehicle.php" />
+        <option value="$PROJECT_DIR$/src/Vehicle/AbstractRollingVehicle.php" />
+        <option value="$PROJECT_DIR$/src/Vehicle/AbstractVehicle.php" />
+        <option value="$PROJECT_DIR$/src/Vehicle/Aeroport.php" />
+        <option value="$PROJECT_DIR$/src/Vehicle/Car.php" />
+        <option value="$PROJECT_DIR$/src/Vehicle/Energizer.php" />
+        <option value="$PROJECT_DIR$/src/Vehicle/Moto.php" />
+        <option value="$PROJECT_DIR$/src/Vehicle/Plane.php" />
+        <option value="$PROJECT_DIR$/src/Vehicle/Supercopter.php" />
+        <option value="$PROJECT_DIR$/src/Utilities/Supercopter.php" />
+        <option value="$PROJECT_DIR$/src/Vehicle/VehicleInterface.php" />
+        <option value="$PROJECT_DIR$/autoload.php" />
+        <option value="$PROJECT_DIR$/src/Utilities/Database.php" />
+        <option value="$PROJECT_DIR$/src/Controller/indexController.php" />
+        <option value="$PROJECT_DIR$/templates/index.php" />
         <option value="$PROJECT_DIR$/src/Controller/registerController.php" />
-        <option value="$PROJECT_DIR$/src/Classes/FormValidator.php" />
+        <option value="$PROJECT_DIR$/templates/register.php" />
+        <option value="$PROJECT_DIR$/src/Controller/RegisterController2.php" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-154" />
-    <option name="y" value="461" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="90" />
+    <option name="y" value="157" />
     <option name="width" value="1260" />
     <option name="height" value="944" />
   </component>
@@ -95,7 +208,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,37 +224,61 @@
               <item name="PHPObjet0619" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHPObjet0619" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHPObjet0619" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHPObjet0619" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PHPObjet0619" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHPObjet0619" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+              <item name="RegisterController2.php" type="88303cf5:PhpFileNode" />
+            </path>
+            <path>
+              <item name="PHPObjet0619" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHPObjet0619" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHPObjet0619" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHPObjet0619" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHPObjet0619" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHPObjet0619" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Vehicle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHPObjet0619" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHPObjet0619" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\stagiaire\Desktop\PHPObjet0619\src\Vehicle" />
+      <recent name="C:\Users\stagiaire\Desktop\PHPObjet0619\src\Utilities" />
+      <recent name="C:\Users\stagiaire\Desktop\PHPObjet0619\src\Entity" />
       <recent name="C:\Users\stagiaire\Desktop\PHPObjet0619\src\Classes" />
       <recent name="C:\Users\stagiaire\Desktop\php\Classes\Register" />
     </key>
@@ -172,33 +308,36 @@
       <workItem from="1559548690556" duration="17581000" />
       <workItem from="1559643969750" duration="12051000" />
       <workItem from="1559719255768" duration="5214000" />
-      <workItem from="1559727029002" duration="15722000" />
+      <workItem from="1559727029002" duration="15753000" />
+      <workItem from="1559806764553" duration="17836000" />
+      <workItem from="1559891378583" duration="11250000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50568000" />
+    <option name="totallyTimeSpent" value="79685000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-154" y="461" width="1260" height="944" extended-state="0" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.025" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Database Changes" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="right" id="Database" order="0" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.2394822" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.3298731" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3298731" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Database" order="0" weight="0.32928804" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -208,13 +347,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms2.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6868">
-          <caret line="404" column="27" lean-forward="true" selection-start-line="404" selection-start-column="27" selection-end-line="404" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Classes/Register/form_function.php" />
     <entry file="file://$PROJECT_DIR$/Classes/Register/register.php" />
     <entry file="file://$PROJECT_DIR$/Classes/Register/register_check.php" />
@@ -244,13 +376,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/inc/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -258,51 +383,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/indexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-112">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/moto">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Classes/Moto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Classes/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="78" selection-start-line="32" selection-start-column="75" selection-end-line="32" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Classes/Database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="50" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moto" />
     <entry file="file://$PROJECT_DIR$/templates/moto.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -310,45 +391,201 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Classes/vehicle.php">
+    <entry file="file://$PROJECT_DIR$/src/Vehicle/boat.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="-60">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Classes/Plane.php">
+    <entry file="file://$PROJECT_DIR$/src/Classes/RollingVehicle.php" />
+    <entry file="file://$PROJECT_DIR$/src/Classes/FlyingVehicle.php" />
+    <entry file="file://$PROJECT_DIR$/src/Classes/Plane2.php" />
+    <entry file="file://$PROJECT_DIR$/src/Examples">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utilities/FormValidator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/race.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="32" column="4" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+        <state relative-caret-position="680">
+          <caret line="40" column="27" lean-forward="true" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+          <folding>
+            <element signature="e#6#31#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Classes/boat.php">
+    <entry file="file://$PROJECT_DIR$/src/Entity/Produit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="47" lean-forward="true" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+        <state relative-caret-position="62">
+          <caret line="113" column="7" lean-forward="true" selection-start-line="113" selection-start-column="7" selection-end-line="113" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="76" column="7" lean-forward="true" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Examples/Compteur.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Vehicle/Car.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Vehicle/Energizer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Vehicle/Moto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Vehicle/Plane.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Vehicle/Supercopter.php" />
+    <entry file="file://$PROJECT_DIR$/src/Vehicle/VehicleInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Vehicle/Supercopter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Vehicle/AbstractVehicle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Vehicle/Aeroport.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Vehicle/AbstractFlyingVehicle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Vehicle/AbstractRollingVehicle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9adce522-d6ca-4a56-bada-9f1ac73508f1/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://9adce522-d6ca-4a56-bada-9f1ac73508f1/schema/mydb/table/produit">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="a00ed18a-1055-404e-a92e-0039610f87c0">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/registerController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        <state relative-caret-position="44">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Classes/FormValidator.php">
+    <entry file="file://$PROJECT_DIR$/src/Controller/indexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="69" lean-forward="true" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+        <state relative-caret-position="384">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="11" />
+          <folding>
+            <element signature="e#34#57#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9adce522-d6ca-4a56-bada-9f1ac73508f1/schema/mydb/table/app_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="a00ed18a-1055-404e-a92e-0039610f87c0">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utilities/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="38" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/RegisterController2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+          <folding>
+            <element signature="e#35#55#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

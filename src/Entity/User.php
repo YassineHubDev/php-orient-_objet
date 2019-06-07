@@ -1,66 +1,56 @@
 <?php
-
+namespace src\Entity;
 class User
-
 {
     /**
      * @var int
      */
     private $id;
-
     /**
      * @var string
      */
-    private $name;
-
+    private $username;
     /**
      * @var string
      */
     private $email;
-
     /**
      * @var string
      */
     private $password;
-
-    /*
-     * Initialisation des propriètés de l'utilisateur à la construcion de l'objet
+    /**
+     * Initialisation des propriétés de l'utilisateur à la construction de l'objet
      * @param string $username
-     * @param $email
-     * @param $password
+     * @param string $email
+     * @param string $password
      */
-
-    public function __construct(string $name, string $email, string $password)
+    public function __construct(string $username, string $email, string $password)
     {
-        $this->name = $name;
+        $this->username = $username;
         $this->email = $email;
         $this->setPassword($password);
     }
-
     /**
      * @return int
      */
-    public function getId()
+    public function getId(): int
     {
         return $this->id;
     }
-
     /**
      * @param int $id
      */
-    public function setId($id)
+    public function setId(int $id): void
     {
         $this->id = $id;
     }
-
     /**
      * @return string
      */
     public function getUsername(): string
     {
-        return $this->name;
+        return $this->username;
     }
-
     /**
      * @param string $username
      */
@@ -68,72 +58,55 @@ class User
     {
         $this->username = $username;
     }
-
-
     /**
      * @return string
      */
-    public function getEmail()
+    public function getEmail(): string
     {
         return $this->email;
     }
-
     /**
      * @param string $email
      */
-    public function setEmail($email)
+    public function setEmail(string $email): void
     {
         $this->email = $email;
     }
-
     /**
      * @return string
      */
-    public function getPassword()
+    public function getPassword(): string
     {
         return $this->password;
     }
-
-
     /**
      * Ajoute et hash le mot de passe
      * @param string $password
      */
-
     public function setPassword(string $password): void
     {
-        //Hashage
-        $hash=password_hash($password, PASSWORD_BCRYPT);
-        //stockage
+        // Hashage
+        $hash = password_hash($password, PASSWORD_BCRYPT);
+        // Stockage
         $this->password = $hash;
     }
-
-    public function getStrParamSQL()
+    /**
+     * Récupère le nom d'utilisateur, l'email et le mot de passe
+     * Prépare la requête SQL pour le "INSERT INTO"
+     * @return string
+     */
+    public function getStrParamsSQL(): string
     {
-        //On crée un tableau avec les 3 propriètés
+        // On crée un tableau avec les 3 propriétés
         $tab = [
-            $this->name, $this->email, $this->password];
-        //On crée une chaîne de caractère séparés de virgule et les quotes simples
+            htmlentities($this->username),
+            htmlentities($this->email),
+            htmlentities($this->password)
+        ];
+        // On crée une chaîne de caractères séparés de virgules et les quotes simples
         $str = implode("','", $tab);
-        // On a rajouté une quote simple auu début et une à la fin
-        //On retourne l'ensemble
-        return"'" . $str . "'";
+        // On a ajoute une quote simple au début et une à la fin
+        // On retourne l'ensemble
+        return "'" . $str . "'";
     }
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

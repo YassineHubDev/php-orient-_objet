@@ -1,6 +1,5 @@
 <?php
-
-
+namespace src\Vehicle;
 class Aeroport
 {
     /**

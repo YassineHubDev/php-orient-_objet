@@ -1,6 +1,8 @@
 <?php
-
-class Produit {
+namespace src\Entity;
+class Produit
+{
+    const PER_PAGE = 12;
     private $id;
     private $name;
     private $description;
@@ -8,19 +10,16 @@ class Produit {
     private $nbVues;
     private $dateCreation;
     private $dateModification;
-    private $datePublication;
+    private $etatPublication;
     private $imageName;
-
     /**
      * Retourne les 50 premiers caractères de la description
      * @return string
      */
-
     public function getShortDescription(): string
     {
-        return substr($this->description, 0, 50) ; "...";
+        return substr($this->description, 0, 50) . "...";
     }
-
     /**
      * @return mixed
      */
@@ -28,15 +27,13 @@ class Produit {
     {
         return $this->id;
     }
-
     /**
      * @param mixed $id
      */
-    public function setId($id)
+    public function setId($id): void
     {
         $this->id = $id;
     }
-
     /**
      * @return mixed
      */
@@ -44,15 +41,13 @@ class Produit {
     {
         return $this->name;
     }
-
     /**
      * @param mixed $name
      */
-    public function setName($name)
+    public function setName($name): void
     {
         $this->name = $name;
     }
-
     /**
      * @return mixed
      */
@@ -60,15 +55,13 @@ class Produit {
     {
         return $this->description;
     }
-
     /**
      * @param mixed $description
      */
-    public function setDescription($description)
+    public function setDescription($description): void
     {
         $this->description = $description;
     }
-
     /**
      * @return mixed
      */
@@ -76,15 +69,15 @@ class Produit {
     {
         return $this->price;
     }
-
     /**
      * @param mixed $price
      */
-    public function setPrice($price)
+    public function setPrice($price): void
     {
-        $this->price = $price;
+        if ($price >= 0) {
+            $this->price = $price;
+        }
     }
-
     /**
      * @return mixed
      */
@@ -92,15 +85,16 @@ class Produit {
     {
         return $this->nbVues;
     }
-
     /**
      * @param mixed $nbVues
      */
-    public function setNbVues($nbVues)
+    public function setNbVues($nbVues): void
     {
+        if ($nbVues >= 0) {
+            $this->$nbVues = $nbVues;
+        }
         $this->nbVues = $nbVues;
     }
-
     /**
      * @return mixed
      */
@@ -108,15 +102,13 @@ class Produit {
     {
         return $this->dateCreation;
     }
-
     /**
      * @param mixed $dateCreation
      */
-    public function setDateCreation($dateCreation)
+    public function setDateCreation($dateCreation): void
     {
         $this->dateCreation = $dateCreation;
     }
-
     /**
      * @return mixed
      */
@@ -124,51 +116,41 @@ class Produit {
     {
         return $this->dateModification;
     }
-
     /**
      * @param mixed $dateModification
      */
-    public function setDateModification($dateModification)
+    public function setDateModification($dateModification): void
     {
         $this->dateModification = $dateModification;
     }
-
     /**
      * @return mixed
      */
-    public function getDatePublication()
+    public function getEtatPublication()
     {
-        return $this->datePublication;
+        return $this->etatPublication;
     }
-
     /**
-     * @param mixed $datePublication
+     * @param mixed $etatPublication
      */
-    public function setDatePublication($datePublication)
+    public function setEtatPublication($etatPublication): void
     {
-        $this->datePublication = $datePublication;
+        $this->etatPublication = $etatPublication;
     }
-
     /**
      * @return mixed
      */
     public function getImageName()
     {
+        // rustine pour afficher l'image dans le cas où la colonne
+        // de la table en BDD diffère de celle de la propriété de la classe
         return $this->imageName ?? $this->image_name ?? '';
     }
-
     /**
      * @param mixed $imageName
      */
-    public function setImageName($imageName)
+    public function setImageName($imageName): void
     {
         $this->imageName = $imageName;
     }
-
-    /**
-     * Retourne les 50 premiers caractères de la description
-     * @return string
-     */
-
-
 }

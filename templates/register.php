@@ -1,6 +1,18 @@
 <?php
-require dirname(__DIR__) . '/src/Controller/registerController.php';
+use src\Controller\RegisterController2;
+
+require dirname(__DIR__) . '/autoload.php';
+
+
+//On récupère notre contrôleur
+$controller = new RegisterController2();
+//On récupère les données de l'index
+$datas = $controller->register();
+//On extrait les données pour pouvoir les utiliser en tant que variables
+extract($datas);
+
 require 'inc/header.php';
+
 ?>
 
     <h1>Inscription</h1>

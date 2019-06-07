@@ -1,4 +1,6 @@
 <?php
+namespace src\Utilities;
+use PDO;
 
 /**
  * Cette classe utilise PDO afin d'effectuer des opérations sur la BDD
@@ -10,50 +12,53 @@ class Database
      * @var PDO
      */
     private $pdo;
-
+    /**
+     * On crée un constructeur pour initialiser PDO automatiquement
+     */
     public function __construct()
     {
         var_dump("Entrée dans le constructeur");
         $this->connect();
     }
-
-
-
-    public function connect():void
-     {
-
-     // connexion à MySQL
-     $this->pdo = new PDO (
-        'mysql:host=localhost;dbname=mydb',
-        'root',
-        null,
-         [
-             PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8mb4"
-         ]
-     );
+    /**
+     * Créer une instance de PDO
+     */
+    public function connect(): void
+    {
+        // Connexion à MySQL
+        $this->pdo = new PDO(
+            'mysql:host=localhost;dbname=mydb',
+            'root',
+            null,
+            [
+                PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8mb4",
+                PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
+            ]
+        );
     }
     /**
-     * Execute la requete SQL fournie et retourne un éventuel tableau
-     *
+     * Exécute la requête SQL fournie et retourne un éventuel tableau
+     * @param string $sql
+     * @param string $className
+     * @return array|null
      */
-
-    public function query(string $sql, string $classeName): ?array
+    public function query(string $sql, string $className): ?array
     {
-        //Execution de la requete
+        // Execution de la requête
         $result = $this->pdo->query($sql);
         // Récupération des résultats
-        return $result->fetchAll(PDO::FETCH_CLASS, 'produit');
-}
-
+        return $result->fetchAll(PDO::FETCH_CLASS, $className);
+    }
     /**
-     *
-     *
-     *
+     * Execute une requête SQL pour :
+     * - La création (INSERT INTO)
+     * - La modification (UPDATE)
+     * - La suppression (DELETE, DROP)
      * @param string $sql
      * @return int
      */
-    public function exec (string $sql): int
-{
-     return $this->pdo->exec($sql);
+    public function exec(string $sql): int
+    {
+        return $this->pdo->exec($sql);
     }
 }
