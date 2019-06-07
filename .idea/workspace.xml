@@ -2,30 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b240b1bc-d17d-4159-87d6-0111447f77d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/RegisterController2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Utilities/Router.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/indexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/indexController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/registerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/registerController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Produit.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Produit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Examples/Compteur.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Examples/Compteur.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/RegisterController2.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/RegisterController2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Utilities/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilities/Database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utilities/FormValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilities/FormValidator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vehicle/AbstractFlyingVehicle.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle/AbstractFlyingVehicle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vehicle/AbstractRollingVehicle.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle/AbstractRollingVehicle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vehicle/AbstractVehicle.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle/AbstractVehicle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vehicle/Aeroport.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle/Aeroport.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vehicle/Car.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle/Car.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vehicle/Energizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle/Energizer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vehicle/Moto.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle/Moto.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vehicle/Plane.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle/Plane.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vehicle/VehicleInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle/VehicleInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/race.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/race.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/register.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,11 +51,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/RegisterController2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+            <state relative-caret-position="532">
+              <caret line="49" column="86" selection-start-line="49" selection-start-column="86" selection-end-line="49" selection-end-column="86" />
               <folding>
                 <element signature="e#35#55#0#PHP" expanded="true" />
               </folding>
@@ -83,51 +64,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/indexController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" column="11" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="11" />
-              <folding>
-                <element signature="e#34#57#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="38" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="38" />
+            <state relative-caret-position="273">
+              <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://9adce522-d6ca-4a56-bada-9f1ac73508f1/schema/mydb/table/app_user">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state projectRestartId="a00ed18a-1055-404e-a92e-0039610f87c0">
-              <filtering>
-                <filter text="" />
-              </filtering>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Utilities/Database.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Utilities/Router.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="29" column="45" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="45" />
+            <state relative-caret-position="401">
+              <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/index.php">
+        <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="72" />
+            <state relative-caret-position="252">
+              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -140,8 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gitignore.php" />
-        <option value="$PROJECT_DIR$/Classes/Database.php" />
         <option value="$PROJECT_DIR$/Classes/User.php" />
         <option value="$PROJECT_DIR$/Register/register.php" />
         <option value="$PROJECT_DIR$/Register/register_check.php" />
@@ -185,12 +141,14 @@
         <option value="$PROJECT_DIR$/src/Utilities/Supercopter.php" />
         <option value="$PROJECT_DIR$/src/Vehicle/VehicleInterface.php" />
         <option value="$PROJECT_DIR$/autoload.php" />
-        <option value="$PROJECT_DIR$/src/Utilities/Database.php" />
         <option value="$PROJECT_DIR$/src/Controller/indexController.php" />
         <option value="$PROJECT_DIR$/templates/index.php" />
         <option value="$PROJECT_DIR$/src/Controller/registerController.php" />
         <option value="$PROJECT_DIR$/templates/register.php" />
+        <option value="$PROJECT_DIR$/src/Utilities/Database.php" />
         <option value="$PROJECT_DIR$/src/Controller/RegisterController2.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/src/Utilities/Router.php" />
       </list>
     </option>
   </component>
@@ -218,43 +176,7 @@
             <path>
               <item name="PHPObjet0619" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHPObjet0619" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHPObjet0619" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHPObjet0619" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHPObjet0619" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHPObjet0619" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-              <item name="RegisterController2.php" type="88303cf5:PhpFileNode" />
-            </path>
-            <path>
-              <item name="PHPObjet0619" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHPObjet0619" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHPObjet0619" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHPObjet0619" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHPObjet0619" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHPObjet0619" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Vehicle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHPObjet0619" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHPObjet0619" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -310,12 +232,12 @@
       <workItem from="1559719255768" duration="5214000" />
       <workItem from="1559727029002" duration="15753000" />
       <workItem from="1559806764553" duration="17836000" />
-      <workItem from="1559891378583" duration="11250000" />
+      <workItem from="1559891378583" duration="18163000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79685000" />
+    <option name="totallyTimeSpent" value="86598000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -323,7 +245,7 @@
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.2394822" />
+      <window_info content_ui="combo" id="Project" order="2" weight="0.20873787" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.3298731" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="2" />
@@ -347,8 +269,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Classes/Register/form_function.php" />
-    <entry file="file://$PROJECT_DIR$/Classes/Register/register.php" />
     <entry file="file://$PROJECT_DIR$/Classes/Register/register_check.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Cours-PHP-master.zip/Cours-PHP-master/Public/tableau.php" />
     <entry file="file://$PROJECT_DIR$/gitignore.php">
@@ -516,15 +436,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9adce522-d6ca-4a56-bada-9f1ac73508f1/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://9adce522-d6ca-4a56-bada-9f1ac73508f1/schema/mydb/table/produit">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="a00ed18a-1055-404e-a92e-0039610f87c0">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -556,7 +467,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/RegisterController2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="49" column="86" selection-start-line="49" selection-start-column="86" selection-end-line="49" selection-end-column="86" />
+          <folding>
+            <element signature="e#35#55#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="das://9adce522-d6ca-4a56-bada-9f1ac73508f1/schema/mydb/table/app_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="a00ed18a-1055-404e-a92e-0039610f87c0">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9adce522-d6ca-4a56-bada-9f1ac73508f1/schema/mydb/table/produit">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state projectRestartId="a00ed18a-1055-404e-a92e-0039610f87c0">
           <filtering>
@@ -567,25 +504,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Utilities/Database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="29" column="45" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="45" />
+        <state relative-caret-position="782">
+          <caret line="46" column="34" lean-forward="true" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/register.php">
+    <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="38" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="38" />
+        <state relative-caret-position="252">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/RegisterController2.php">
+    <entry file="file://$PROJECT_DIR$/src/Utilities/Router.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-          <folding>
-            <element signature="e#35#55#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="401">
+          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
         </state>
       </provider>
     </entry>
